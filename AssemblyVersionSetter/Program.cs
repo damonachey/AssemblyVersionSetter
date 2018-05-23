@@ -1,10 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.XPath;
 
@@ -16,7 +11,6 @@ namespace AssemblyVersionSetter
         {
             try
             {
-                Console.WriteLine(args[0]);
                 var version = Assembly.ReflectionOnlyLoadFrom(args[0]).GetName().Version.ToString();
                 Console.WriteLine($"Version of {args[0]} is {version}");
 
