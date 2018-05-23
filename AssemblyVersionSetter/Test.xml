@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <child1>
+    <child2>
+      <version>0.0.0.0</version>
+    </child2>
+  </child1>
+</root>
